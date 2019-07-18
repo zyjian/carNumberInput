@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "这是一个车牌号输入键盘，键盘处理"
+  spec.description  = <<-DESC 
+                          这是一个车牌号输入键盘"
+                      DESC
 
   spec.homepage     = "https://github.com/zyjian/carNumberInput"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  spec.license = "Copyright (c) 2015年 YJ. All rights reserved."
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -89,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YJCarInput", "YJCarInput/YJCarInput/**/*.{h,m}"
+  spec.source_files  = "YJCarInput/*", "YJCarInput/*.{h,m}"
   # spec.exclude_files = "CarNumberTF/CarNumberTFTests","CarNumberTF/CarNumberTFUITests"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "YJCarInput/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
