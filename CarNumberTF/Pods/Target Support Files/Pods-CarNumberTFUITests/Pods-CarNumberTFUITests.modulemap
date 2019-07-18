@@ -1,0 +1,6 @@
+framework module Pods_CarNumberTFUITests {
+  umbrella header "Pods-CarNumberTFUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
