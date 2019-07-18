@@ -89,8 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CarNumberTF/CarNumberTF/YJCarInput", "CarNumberTF/CarNumberTF/YJCarInput/**/*.{h,m}"
-  spec.exclude_files = "CarNumberTF/CarNumberTFTests","CarNumberTF/CarNumberTFUITests"
+  spec.source_files  = "YJCarInput", "YJCarInput/YJCarInput/**/*.{h,m}"
+  # spec.exclude_files = "CarNumberTF/CarNumberTFTests","CarNumberTF/CarNumberTFUITests"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -102,12 +102,12 @@ Pod::Spec.new do |spec|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-  spec.resource_bundles = {
-     'CarNumberTF' => ['CarNumberTF/CarNumberTF/Assets/*']
-   }
+  # spec.resource_bundles = {
+  #    'CarNumberTF' => ['CarNumberTF/CarNumberTF/Assets/*']
+  #  }
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
