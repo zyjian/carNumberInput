@@ -1,0 +1,1308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024C9A407151A33DA52E51C939C3A3C7 /* Pods-CarNumberTFUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8945AD294B7A138C67D9FAEA93E29785 /* Pods-CarNumberTFUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03566A88AE24E7CC01596FAE007AAFD2 /* RZCarPlateNoKeyBoardCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6ADF42540F056A25F69DBEDB04BE0 /* RZCarPlateNoKeyBoardCellModel.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E536BB91FD058B01581BA1D4A14F092 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D977D693E6DC0331A2BF4F9AD92A5EA5 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A91698E4B9FE539EDA81603DDF0E3 /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01305FED3555A9D7EA0316C0EE8F85DE /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D78B002557EE17CC6568C3A3AC3A3E5C /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		154B2F6C59B8E6B83FEB2AE490F3BCF3 /* Pods-CarNumberTFTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C2363EDF345613F177048927F72767 /* Pods-CarNumberTFTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A036B5793C9D51EA73E2F9D6CDBF0B /* Masonry-dummy.m */; };
+		1D7875F3819C8516F962292680753EC6 /* rzDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E549DAD5F52213413CC088335497D9 /* rzDelete@3x.png */; };
+		21852A2EA4E67702013634E7F3A5AECA /* rzDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F789727B9061E6A2A1300AEEB8942BE0 /* rzDelete@2x.png */; };
+		2399691219E73E014F82608E77CE5F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4561FDFC3E029F018F4A53A684BC6CE1 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281EBA946816164F7CE9523F4EB9561F /* RZCarPlateNoKeyBoardViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBFD24C5A94B4CC0B1E919FADCC25DB /* RZCarPlateNoKeyBoardViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230BB22B451D5151B366BE74F35F84A /* MASViewAttribute.m */; };
+		2A4B1940EB99DD3286C11A6013571361 /* RZCarPlateNoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21CD018E3E48DC08F15D513A070609 /* RZCarPlateNoTextField.m */; };
+		2FCE70764B00884BD8C80840F9262BDE /* RZCarPlateNoKeyBoardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA343142B5979B25B6A824C6E7231D8 /* RZCarPlateNoKeyBoardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C04607235A3CD79815F7C6C0A0584A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E67284D6B62609D88702A938BD9916 /* RZCarPlateNoKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EFF94CA9B63B1F39AD177143D6241F /* RZCarPlateNoKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 561ECAFB9306A8F257C09798A1E63250 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41230E89612DF7A7B8C3DA3EE04A2E9E /* CarNumberTF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490048A592A773A80F724BD609EA7E9A /* CarNumberTF-dummy.m */; };
+		44FDE288BC0E9806A26B99D59DB06F77 /* RZCarPlateNoKeyBoardCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB0C5BA94E88AE1EA016435208082C2 /* RZCarPlateNoKeyBoardCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467D6FF487941A3619CDF4CA586A5B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31703145B84AF4E3E865228568153A20 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B889FCBD2B9945FD58E0D8435856EBD9 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF833B6C50F28697CD1020C18C03659 /* Pods-CarNumberTFUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CA38E222B5D17485B6AD10972736F4 /* Pods-CarNumberTFUITests-dummy.m */; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A936CDCE0F523F751E098146042B550A /* MASConstraintMaker.m */; };
+		7B3BA1D034298E5EFFEE5B7B74A9233D /* rzKeyBoardFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4F2F145E833AB98958B8720468805E /* rzKeyBoardFlag.png */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9AD9CA203E213FEE8A53E4B941261 /* MASCompositeConstraint.m */; };
+		7FF02A43DA6BFEB3E274FF12ECD2BC81 /* RZCarPlateNoTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3B454D46DD805F774F1662BA503196 /* RZCarPlateNoTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC63EBEC4A615E0F6895F41838B4AD /* MASLayoutConstraint.m */; };
+		85AB2A5A437E3FAC5C0D0E24A84DA279 /* CarNumberTF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 337404AA9AC8BE6F021AC5BDABA9A43F /* CarNumberTF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E39B204402C0CE214F584578464C6A /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB5C2B8AC6B75E576F6FA9530972528 /* RZCarPlateNoKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EC59908C4DBAC0A2249B21122CBB08 /* RZCarPlateNoKeyBoardCell.m */; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5E331B303A9FD4A31CBDE1DA379CF5 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E4500F0FE3DD76E09010E994A29836 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FCED60D5745F4C5E0834C2CE7AC591 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97037AC5B8C0125E7DAF30D1E90BCF34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		9C4B03A7E998645F1EB3675D5BD5D523 /* Pods-CarNumberTF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537E470B6A9221178FD70341E417C84 /* Pods-CarNumberTF-dummy.m */; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ADC422366F3DD784ADA66D541887DE /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0EC5793242CDE06A315720EDB65139 /* RZCarPlateNoKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3D3E9B39560B5D012F89FBD9AE13E /* RZCarPlateNoKeyBoardView.m */; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A944268C88FCBAC8FF178B7FE1B171 /* View+MASAdditions.m */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D0F040A1200018FF5D63EF3C04D40 /* MASViewConstraint.m */; };
+		B8263CB7B3230E7936D4BD4E82240175 /* Pods-CarNumberTF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75809BBDF63DFA07413EE31DDF7E1F1D /* Pods-CarNumberTF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B906CB4961C4B0AEB299AFFA9F014E75 /* RZCarPlateNoKeyBoardFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95693073A8D6AE8A683FA0B1E605C562 /* RZCarPlateNoKeyBoardFlagView.m */; };
+		C0810EF56D3E7A1AE8D152876A9F2127 /* RZCarPlateNoKeyBoardFlagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FFD8E57560945A62E9AE950988B6A7 /* RZCarPlateNoKeyBoardFlagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A33D887AC3D5180C13563117A22569E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C5AF1C3A1FA296C729F0FCAFC276EA49 /* Pods-CarNumberTFTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF112646D18422E43DFF0F55C8316A8 /* Pods-CarNumberTFTests-dummy.m */; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0B47477155C7DA713CC1ABFD569493 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9A2BA0746A9776F8FB51DD92727 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A04312F33B882DA3F1F207C04C803B8B /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42036232FD384DF8B054CE013C0B997 /* RZCarPlateNoKeyBoardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CC11D1A23016228B81ABE297795314 /* RZCarPlateNoKeyBoardViewModel.m */; };
+		F4D16F43E654B775340E6F40FB65F95C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FAF52F6F1BD6144CCA130710CA79F826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D293DF5F3AA1EC698994EABD8DA0B9D /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		050E764D5063D8D86B7920827C3340E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD513CB1214F3D33889AFAE0016570D;
+			remoteInfo = "Pods-CarNumberTF";
+		};
+		7A0DC67F3B5AAB47A2C181A8B29F0AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDA28861CD7993B5DB1E8D1E4E3FA18;
+			remoteInfo = CarNumberTF;
+		};
+		7E819283B5774F9D5A8266263006B07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD513CB1214F3D33889AFAE0016570D;
+			remoteInfo = "Pods-CarNumberTF";
+		};
+		8B9748BFCD38E385FFD54D94F15000A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01305FED3555A9D7EA0316C0EE8F85DE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		029EF92A64E5EB644DAECA314DC82792 /* Pods-CarNumberTFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTFTests.release.xcconfig"; sourceTree = "<group>"; };
+		10C578AF29AC7CB0F901FAF2D098DF08 /* Pods-CarNumberTFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTFUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1260501E2D246BF6C4F144E752629BED /* Pods-CarNumberTFTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarNumberTFTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12A3D3E9B39560B5D012F89FBD9AE13E /* RZCarPlateNoKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoKeyBoardView.m; path = YJCarInput/RZCarPlateNoKeyBoardView.m; sourceTree = "<group>"; };
+		1D385A6BE589DDA35D9FF25FBFD6742C /* Pods-CarNumberTF-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTF-Info.plist"; sourceTree = "<group>"; };
+		1E536BB91FD058B01581BA1D4A14F092 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B21CD018E3E48DC08F15D513A070609 /* RZCarPlateNoTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoTextField.m; path = YJCarInput/RZCarPlateNoTextField.m; sourceTree = "<group>"; };
+		30389F279D9B78054EC7A4C57E75D8F3 /* Pods_CarNumberTFUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CarNumberTFUITests.framework; path = "Pods-CarNumberTFUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D9AD9CA203E213FEE8A53E4B941261 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31703145B84AF4E3E865228568153A20 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		337404AA9AC8BE6F021AC5BDABA9A43F /* CarNumberTF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarNumberTF-umbrella.h"; sourceTree = "<group>"; };
+		34EFF94CA9B63B1F39AD177143D6241F /* RZCarPlateNoKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoKeyBoardView.h; path = YJCarInput/RZCarPlateNoKeyBoardView.h; sourceTree = "<group>"; };
+		35DF60734A0539EBDEFA31E50D0D5E4D /* Pods-CarNumberTFUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarNumberTFUITests.modulemap"; sourceTree = "<group>"; };
+		37C514CD814ACED1B57E0DEDC7AC732A /* CarNumberTF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarNumberTF-prefix.pch"; sourceTree = "<group>"; };
+		39D6ADF42540F056A25F69DBEDB04BE0 /* RZCarPlateNoKeyBoardCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoKeyBoardCellModel.m; path = YJCarInput/RZCarPlateNoKeyBoardCellModel.m; sourceTree = "<group>"; };
+		3D29208420F2D906B8C9FFE2CEA301CA /* Pods-CarNumberTF-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarNumberTF-frameworks.sh"; sourceTree = "<group>"; };
+		3DFDD521EE8363B70A4CBF17804C9DED /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		4230BB22B451D5151B366BE74F35F84A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		438D0F040A1200018FF5D63EF3C04D40 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		4561FDFC3E029F018F4A53A684BC6CE1 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		45A944268C88FCBAC8FF178B7FE1B171 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		45C2363EDF345613F177048927F72767 /* Pods-CarNumberTFTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarNumberTFTests-umbrella.h"; sourceTree = "<group>"; };
+		46FFD8E57560945A62E9AE950988B6A7 /* RZCarPlateNoKeyBoardFlagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoKeyBoardFlagView.h; path = YJCarInput/RZCarPlateNoKeyBoardFlagView.h; sourceTree = "<group>"; };
+		48BB594896FF56016B42DB4D77CAD949 /* Pods-CarNumberTFTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTFTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48C2AE6A9F4E28663A2D6D8E25D3F468 /* Pods-CarNumberTF-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarNumberTF-acknowledgements.markdown"; sourceTree = "<group>"; };
+		490048A592A773A80F724BD609EA7E9A /* CarNumberTF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarNumberTF-dummy.m"; sourceTree = "<group>"; };
+		495732CF4D1067360022CB3A620172FF /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		4BBFD24C5A94B4CC0B1E919FADCC25DB /* RZCarPlateNoKeyBoardViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoKeyBoardViewModel.h; path = YJCarInput/RZCarPlateNoKeyBoardViewModel.h; sourceTree = "<group>"; };
+		4D293DF5F3AA1EC698994EABD8DA0B9D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		53CA38E222B5D17485B6AD10972736F4 /* Pods-CarNumberTFUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarNumberTFUITests-dummy.m"; sourceTree = "<group>"; };
+		53FCED60D5745F4C5E0834C2CE7AC591 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		54123451CCC00EFD0BF9D2D5B956B82A /* Pods-CarNumberTFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56086DE8B30B47DAF5763009BB35DD33 /* Pods-CarNumberTF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTF.release.xcconfig"; sourceTree = "<group>"; };
+		561ECAFB9306A8F257C09798A1E63250 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		5B5E331B303A9FD4A31CBDE1DA379CF5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5EBDA9A2BA0746A9776F8FB51DD92727 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		69E4500F0FE3DD76E09010E994A29836 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6DB0C5BA94E88AE1EA016435208082C2 /* RZCarPlateNoKeyBoardCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoKeyBoardCellModel.h; path = YJCarInput/RZCarPlateNoKeyBoardCellModel.h; sourceTree = "<group>"; };
+		6FC1C307F89C15183FF53A492234AE22 /* CarNumberTF-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarNumberTF-Info.plist"; sourceTree = "<group>"; };
+		70BC63EBEC4A615E0F6895F41838B4AD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		731E77D828DFC92EA1A131F4D7F90EC6 /* Pods-CarNumberTF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarNumberTF.modulemap"; sourceTree = "<group>"; };
+		75809BBDF63DFA07413EE31DDF7E1F1D /* Pods-CarNumberTF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarNumberTF-umbrella.h"; sourceTree = "<group>"; };
+		7A33D887AC3D5180C13563117A22569E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7BA1606D2F8BAB45949711BE95A356A8 /* Pods-CarNumberTF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTF.debug.xcconfig"; sourceTree = "<group>"; };
+		7CBE6EAB7CF341C546E9E102C09CDD50 /* CarNumberTF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarNumberTF.modulemap; sourceTree = "<group>"; };
+		7EA343142B5979B25B6A824C6E7231D8 /* RZCarPlateNoKeyBoardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoKeyBoardCell.h; path = YJCarInput/RZCarPlateNoKeyBoardCell.h; sourceTree = "<group>"; };
+		8945AD294B7A138C67D9FAEA93E29785 /* Pods-CarNumberTFUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarNumberTFUITests-umbrella.h"; sourceTree = "<group>"; };
+		8C0B47477155C7DA713CC1ABFD569493 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		91ADC422366F3DD784ADA66D541887DE /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		940A91698E4B9FE539EDA81603DDF0E3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		94EC59908C4DBAC0A2249B21122CBB08 /* RZCarPlateNoKeyBoardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoKeyBoardCell.m; path = YJCarInput/RZCarPlateNoKeyBoardCell.m; sourceTree = "<group>"; };
+		9537E470B6A9221178FD70341E417C84 /* Pods-CarNumberTF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarNumberTF-dummy.m"; sourceTree = "<group>"; };
+		95693073A8D6AE8A683FA0B1E605C562 /* RZCarPlateNoKeyBoardFlagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoKeyBoardFlagView.m; path = YJCarInput/RZCarPlateNoKeyBoardFlagView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04312F33B882DA3F1F207C04C803B8B /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		A5CD50C5D3CD9F4689D28B8C9A7215B4 /* CarNumberTF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarNumberTF.xcconfig; sourceTree = "<group>"; };
+		A936CDCE0F523F751E098146042B550A /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		ACF112646D18422E43DFF0F55C8316A8 /* Pods-CarNumberTFTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarNumberTFTests-dummy.m"; sourceTree = "<group>"; };
+		B889FCBD2B9945FD58E0D8435856EBD9 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		B9CC11D1A23016228B81ABE297795314 /* RZCarPlateNoKeyBoardViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCarPlateNoKeyBoardViewModel.m; path = YJCarInput/RZCarPlateNoKeyBoardViewModel.m; sourceTree = "<group>"; };
+		B9FDAF9F57FF71C8BD09D0F6DAAB6ECD /* Pods-CarNumberTFUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTFUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEA7126302FEFB25AF512BCD843A9E58 /* Pods-CarNumberTFUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarNumberTFUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6A036B5793C9D51EA73E2F9D6CDBF0B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		C9C04607235A3CD79815F7C6C0A0584A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		CA4F2F145E833AB98958B8720468805E /* rzKeyBoardFlag.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rzKeyBoardFlag.png; path = Resources/rzKeyBoardFlag.png; sourceTree = "<group>"; };
+		D13F99DF0786F66A5B3424C2FDBC46FD /* Pods_CarNumberTF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CarNumberTF.framework; path = "Pods-CarNumberTF.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E39B204402C0CE214F584578464C6A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D5E1E80E1211ED8554D4734BEE1334D9 /* Pods-CarNumberTFUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarNumberTFUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D78B002557EE17CC6568C3A3AC3A3E5C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D977D693E6DC0331A2BF4F9AD92A5EA5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E0D7E230FDDE90EC7737353939959BE3 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		E1F7CF66E52E14950BAB36A091F6FC35 /* Pods-CarNumberTFTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTFTests-Info.plist"; sourceTree = "<group>"; };
+		E27FE9B13ECFB5D95BE95E3241E34E3E /* Pods_CarNumberTFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CarNumberTFTests.framework; path = "Pods-CarNumberTFTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DC063277922AE2DD0E26C68256805E /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E9E549DAD5F52213413CC088335497D9 /* rzDelete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rzDelete@3x.png"; path = "Resources/rzDelete@3x.png"; sourceTree = "<group>"; };
+		EB3B454D46DD805F774F1662BA503196 /* RZCarPlateNoTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCarPlateNoTextField.h; path = YJCarInput/RZCarPlateNoTextField.h; sourceTree = "<group>"; };
+		F789727B9061E6A2A1300AEEB8942BE0 /* rzDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rzDelete@2x.png"; path = "Resources/rzDelete@2x.png"; sourceTree = "<group>"; };
+		F890F5F393005485041F51CC7A15F71F /* Pods-CarNumberTFUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTFUITests-Info.plist"; sourceTree = "<group>"; };
+		F9BC69184582F95AD86B83443E1FB5B8 /* Pods-CarNumberTF-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarNumberTF-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF37AA10B4F56843D4AD64289594E13C /* CarNumberTF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarNumberTF.framework; path = CarNumberTF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5740B6414C6A00C9365E1C56B8713D /* Pods-CarNumberTFTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarNumberTFTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04639A5F00F1A5942174FA196229DE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF52F6F1BD6144CCA130710CA79F826 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C067A0C80C0BFDDAAA1CD72CC676570F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D16F43E654B775340E6F40FB65F95C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C168C98390AB0C7E9D6F1BE5EE5A4276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467D6FF487941A3619CDF4CA586A5B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A82FE5184AD13624C06F12C708B0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2399691219E73E014F82608E77CE5F41 /* Foundation.framework in Frameworks */,
+				97037AC5B8C0125E7DAF30D1E90BCF34 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CA3650902842D3EDF1E02A3193FEE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F789727B9061E6A2A1300AEEB8942BE0 /* rzDelete@2x.png */,
+				E9E549DAD5F52213413CC088335497D9 /* rzDelete@3x.png */,
+				CA4F2F145E833AB98958B8720468805E /* rzKeyBoardFlag.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350D3AE4AD6232B7103C71122E7E74EF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				69E4500F0FE3DD76E09010E994A29836 /* MASCompositeConstraint.h */,
+				30D9AD9CA203E213FEE8A53E4B941261 /* MASCompositeConstraint.m */,
+				53FCED60D5745F4C5E0834C2CE7AC591 /* MASConstraint.h */,
+				5EBDA9A2BA0746A9776F8FB51DD92727 /* MASConstraint.m */,
+				91ADC422366F3DD784ADA66D541887DE /* MASConstraint+Private.h */,
+				4D293DF5F3AA1EC698994EABD8DA0B9D /* MASConstraintMaker.h */,
+				A936CDCE0F523F751E098146042B550A /* MASConstraintMaker.m */,
+				5B5E331B303A9FD4A31CBDE1DA379CF5 /* MASLayoutConstraint.h */,
+				70BC63EBEC4A615E0F6895F41838B4AD /* MASLayoutConstraint.m */,
+				C9C04607235A3CD79815F7C6C0A0584A /* Masonry.h */,
+				4561FDFC3E029F018F4A53A684BC6CE1 /* MASUtilities.h */,
+				561ECAFB9306A8F257C09798A1E63250 /* MASViewAttribute.h */,
+				4230BB22B451D5151B366BE74F35F84A /* MASViewAttribute.m */,
+				A04312F33B882DA3F1F207C04C803B8B /* MASViewConstraint.h */,
+				438D0F040A1200018FF5D63EF3C04D40 /* MASViewConstraint.m */,
+				D977D693E6DC0331A2BF4F9AD92A5EA5 /* NSArray+MASAdditions.h */,
+				01305FED3555A9D7EA0316C0EE8F85DE /* NSArray+MASAdditions.m */,
+				1E536BB91FD058B01581BA1D4A14F092 /* NSArray+MASShorthandAdditions.h */,
+				D78B002557EE17CC6568C3A3AC3A3E5C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				7A33D887AC3D5180C13563117A22569E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				31703145B84AF4E3E865228568153A20 /* View+MASAdditions.h */,
+				45A944268C88FCBAC8FF178B7FE1B171 /* View+MASAdditions.m */,
+				8C0B47477155C7DA713CC1ABFD569493 /* View+MASShorthandAdditions.h */,
+				D2E39B204402C0CE214F584578464C6A /* ViewController+MASAdditions.h */,
+				940A91698E4B9FE539EDA81603DDF0E3 /* ViewController+MASAdditions.m */,
+				74CA4B00984FEB4BF0E370BE37E8EF51 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		40569E3EEBC0F066A4FE5D5460FC7CD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB0EC0448F58C6B3F43588E265A57F4D /* CarNumberTF */,
+				350D3AE4AD6232B7103C71122E7E74EF /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		597A01A3F4A92ED381F79F27932E1E7F /* Pods-CarNumberTFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35DF60734A0539EBDEFA31E50D0D5E4D /* Pods-CarNumberTFUITests.modulemap */,
+				BEA7126302FEFB25AF512BCD843A9E58 /* Pods-CarNumberTFUITests-acknowledgements.markdown */,
+				B9FDAF9F57FF71C8BD09D0F6DAAB6ECD /* Pods-CarNumberTFUITests-acknowledgements.plist */,
+				53CA38E222B5D17485B6AD10972736F4 /* Pods-CarNumberTFUITests-dummy.m */,
+				F890F5F393005485041F51CC7A15F71F /* Pods-CarNumberTFUITests-Info.plist */,
+				8945AD294B7A138C67D9FAEA93E29785 /* Pods-CarNumberTFUITests-umbrella.h */,
+				10C578AF29AC7CB0F901FAF2D098DF08 /* Pods-CarNumberTFUITests.debug.xcconfig */,
+				D5E1E80E1211ED8554D4734BEE1334D9 /* Pods-CarNumberTFUITests.release.xcconfig */,
+			);
+			name = "Pods-CarNumberTFUITests";
+			path = "Target Support Files/Pods-CarNumberTFUITests";
+			sourceTree = "<group>";
+		};
+		74CA4B00984FEB4BF0E370BE37E8EF51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDD521EE8363B70A4CBF17804C9DED /* Masonry.modulemap */,
+				E0D7E230FDDE90EC7737353939959BE3 /* Masonry.xcconfig */,
+				C6A036B5793C9D51EA73E2F9D6CDBF0B /* Masonry-dummy.m */,
+				E4DC063277922AE2DD0E26C68256805E /* Masonry-Info.plist */,
+				495732CF4D1067360022CB3A620172FF /* Masonry-prefix.pch */,
+				B889FCBD2B9945FD58E0D8435856EBD9 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C7258E23BD2C5A7025999CEFEC38FFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF37AA10B4F56843D4AD64289594E13C /* CarNumberTF.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				D13F99DF0786F66A5B3424C2FDBC46FD /* Pods_CarNumberTF.framework */,
+				E27FE9B13ECFB5D95BE95E3241E34E3E /* Pods_CarNumberTFTests.framework */,
+				30389F279D9B78054EC7A4C57E75D8F3 /* Pods_CarNumberTFUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				40569E3EEBC0F066A4FE5D5460FC7CD2 /* Pods */,
+				C7258E23BD2C5A7025999CEFEC38FFDD /* Products */,
+				D4472F1A37CB6BC81ABE74E4A80A1A75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4472F1A37CB6BC81ABE74E4A80A1A75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F862E51581AE6287BCCA5BCA6C8668A2 /* Pods-CarNumberTF */,
+				DF0509B2A18B40A94187CCB039B463F1 /* Pods-CarNumberTFTests */,
+				597A01A3F4A92ED381F79F27932E1E7F /* Pods-CarNumberTFUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF0509B2A18B40A94187CCB039B463F1 /* Pods-CarNumberTFTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5740B6414C6A00C9365E1C56B8713D /* Pods-CarNumberTFTests.modulemap */,
+				1260501E2D246BF6C4F144E752629BED /* Pods-CarNumberTFTests-acknowledgements.markdown */,
+				48BB594896FF56016B42DB4D77CAD949 /* Pods-CarNumberTFTests-acknowledgements.plist */,
+				ACF112646D18422E43DFF0F55C8316A8 /* Pods-CarNumberTFTests-dummy.m */,
+				E1F7CF66E52E14950BAB36A091F6FC35 /* Pods-CarNumberTFTests-Info.plist */,
+				45C2363EDF345613F177048927F72767 /* Pods-CarNumberTFTests-umbrella.h */,
+				54123451CCC00EFD0BF9D2D5B956B82A /* Pods-CarNumberTFTests.debug.xcconfig */,
+				029EF92A64E5EB644DAECA314DC82792 /* Pods-CarNumberTFTests.release.xcconfig */,
+			);
+			name = "Pods-CarNumberTFTests";
+			path = "Target Support Files/Pods-CarNumberTFTests";
+			sourceTree = "<group>";
+		};
+		DF5E2CC4293CAF1A6A0DFE84B59793B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CBE6EAB7CF341C546E9E102C09CDD50 /* CarNumberTF.modulemap */,
+				A5CD50C5D3CD9F4689D28B8C9A7215B4 /* CarNumberTF.xcconfig */,
+				490048A592A773A80F724BD609EA7E9A /* CarNumberTF-dummy.m */,
+				6FC1C307F89C15183FF53A492234AE22 /* CarNumberTF-Info.plist */,
+				37C514CD814ACED1B57E0DEDC7AC732A /* CarNumberTF-prefix.pch */,
+				337404AA9AC8BE6F021AC5BDABA9A43F /* CarNumberTF-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarNumberTF";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB0EC0448F58C6B3F43588E265A57F4D /* CarNumberTF */ = {
+			isa = PBXGroup;
+			children = (
+				7EA343142B5979B25B6A824C6E7231D8 /* RZCarPlateNoKeyBoardCell.h */,
+				94EC59908C4DBAC0A2249B21122CBB08 /* RZCarPlateNoKeyBoardCell.m */,
+				6DB0C5BA94E88AE1EA016435208082C2 /* RZCarPlateNoKeyBoardCellModel.h */,
+				39D6ADF42540F056A25F69DBEDB04BE0 /* RZCarPlateNoKeyBoardCellModel.m */,
+				46FFD8E57560945A62E9AE950988B6A7 /* RZCarPlateNoKeyBoardFlagView.h */,
+				95693073A8D6AE8A683FA0B1E605C562 /* RZCarPlateNoKeyBoardFlagView.m */,
+				34EFF94CA9B63B1F39AD177143D6241F /* RZCarPlateNoKeyBoardView.h */,
+				12A3D3E9B39560B5D012F89FBD9AE13E /* RZCarPlateNoKeyBoardView.m */,
+				4BBFD24C5A94B4CC0B1E919FADCC25DB /* RZCarPlateNoKeyBoardViewModel.h */,
+				B9CC11D1A23016228B81ABE297795314 /* RZCarPlateNoKeyBoardViewModel.m */,
+				EB3B454D46DD805F774F1662BA503196 /* RZCarPlateNoTextField.h */,
+				2B21CD018E3E48DC08F15D513A070609 /* RZCarPlateNoTextField.m */,
+				01CA3650902842D3EDF1E02A3193FEE8 /* Resources */,
+				DF5E2CC4293CAF1A6A0DFE84B59793B2 /* Support Files */,
+			);
+			name = CarNumberTF;
+			path = CarNumberTF;
+			sourceTree = "<group>";
+		};
+		F862E51581AE6287BCCA5BCA6C8668A2 /* Pods-CarNumberTF */ = {
+			isa = PBXGroup;
+			children = (
+				731E77D828DFC92EA1A131F4D7F90EC6 /* Pods-CarNumberTF.modulemap */,
+				48C2AE6A9F4E28663A2D6D8E25D3F468 /* Pods-CarNumberTF-acknowledgements.markdown */,
+				F9BC69184582F95AD86B83443E1FB5B8 /* Pods-CarNumberTF-acknowledgements.plist */,
+				9537E470B6A9221178FD70341E417C84 /* Pods-CarNumberTF-dummy.m */,
+				3D29208420F2D906B8C9FFE2CEA301CA /* Pods-CarNumberTF-frameworks.sh */,
+				1D385A6BE589DDA35D9FF25FBFD6742C /* Pods-CarNumberTF-Info.plist */,
+				75809BBDF63DFA07413EE31DDF7E1F1D /* Pods-CarNumberTF-umbrella.h */,
+				7BA1606D2F8BAB45949711BE95A356A8 /* Pods-CarNumberTF.debug.xcconfig */,
+				56086DE8B30B47DAF5763009BB35DD33 /* Pods-CarNumberTF.release.xcconfig */,
+			);
+			name = "Pods-CarNumberTF";
+			path = "Target Support Files/Pods-CarNumberTF";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3264936F59624C9537AC213096604964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8263CB7B3230E7936D4BD4E82240175 /* Pods-CarNumberTF-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A76C78ECDE881D892D5C55239D4E9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AB2A5A437E3FAC5C0D0E24A84DA279 /* CarNumberTF-umbrella.h in Headers */,
+				2FCE70764B00884BD8C80840F9262BDE /* RZCarPlateNoKeyBoardCell.h in Headers */,
+				44FDE288BC0E9806A26B99D59DB06F77 /* RZCarPlateNoKeyBoardCellModel.h in Headers */,
+				C0810EF56D3E7A1AE8D152876A9F2127 /* RZCarPlateNoKeyBoardFlagView.h in Headers */,
+				35E67284D6B62609D88702A938BD9916 /* RZCarPlateNoKeyBoardView.h in Headers */,
+				281EBA946816164F7CE9523F4EB9561F /* RZCarPlateNoKeyBoardViewModel.h in Headers */,
+				7FF02A43DA6BFEB3E274FF12ECD2BC81 /* RZCarPlateNoTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6C7EEA9202C4253179C57B25DE3B7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154B2F6C59B8E6B83FEB2AE490F3BCF3 /* Pods-CarNumberTFTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B99EEC826CD16F87819EE7146D91E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C9A407151A33DA52E51C939C3A3C7 /* Pods-CarNumberTFUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		115EC25D2CEC37E0937DA55879F4CBE0 /* Pods-CarNumberTFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96EB4402817638777AD4EA31A8F7A6E /* Build configuration list for PBXNativeTarget "Pods-CarNumberTFUITests" */;
+			buildPhases = (
+				D2B99EEC826CD16F87819EE7146D91E2 /* Headers */,
+				DFFA632456A7389E418CBE5A79F06391 /* Sources */,
+				C067A0C80C0BFDDAAA1CD72CC676570F /* Frameworks */,
+				684CDD09B7C14209906F682786078588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD523F136ACC7FCA7760B2CC1143DEC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarNumberTFUITests";
+			productName = "Pods-CarNumberTFUITests";
+			productReference = 30389F279D9B78054EC7A4C57E75D8F3 /* Pods_CarNumberTFUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FDA28861CD7993B5DB1E8D1E4E3FA18 /* CarNumberTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91995C4381D4DFA76007040D814FA51F /* Build configuration list for PBXNativeTarget "CarNumberTF" */;
+			buildPhases = (
+				A7A76C78ECDE881D892D5C55239D4E9D /* Headers */,
+				7F41C1456B1C4286B1C1A4F6D499FDAA /* Sources */,
+				C4A82FE5184AD13624C06F12C708B0B7 /* Frameworks */,
+				9BFBB73029AED4615577FEF62D4207C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarNumberTF;
+			productName = CarNumberTF;
+			productReference = FF37AA10B4F56843D4AD64289594E13C /* CarNumberTF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE4951E079D69A23A4AA5F8078BB8297 /* Pods-CarNumberTFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB4E6623669EBDD5438436B1ABA0ED6 /* Build configuration list for PBXNativeTarget "Pods-CarNumberTFTests" */;
+			buildPhases = (
+				AB6C7EEA9202C4253179C57B25DE3B7C /* Headers */,
+				A60CF645FF57C3B6048544B7855C4C7B /* Sources */,
+				04639A5F00F1A5942174FA196229DE08 /* Frameworks */,
+				438BB07340B2B8EAA4C3D3C1A09645E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4E7D928C079FD184F4AA8D2CAAA6A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarNumberTFTests";
+			productName = "Pods-CarNumberTFTests";
+			productReference = E27FE9B13ECFB5D95BE95E3241E34E3E /* Pods_CarNumberTFTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECD513CB1214F3D33889AFAE0016570D /* Pods-CarNumberTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5467B7E0AB0EBAEA963B3C00D4732519 /* Build configuration list for PBXNativeTarget "Pods-CarNumberTF" */;
+			buildPhases = (
+				3264936F59624C9537AC213096604964 /* Headers */,
+				0BA67E4FE4DBE117E76AD8CA39F6D0AB /* Sources */,
+				C168C98390AB0C7E9D6F1BE5EE5A4276 /* Frameworks */,
+				B6FFDD1FFC5314FC69CB62D5E62FBE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F003EDE2A0A2F1AAD248A049BCEB6D75 /* PBXTargetDependency */,
+				461A491DC0592C339A62D39F5299C749 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarNumberTF";
+			productName = "Pods-CarNumberTF";
+			productReference = D13F99DF0786F66A5B3424C2FDBC46FD /* Pods_CarNumberTF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C7258E23BD2C5A7025999CEFEC38FFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDA28861CD7993B5DB1E8D1E4E3FA18 /* CarNumberTF */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				ECD513CB1214F3D33889AFAE0016570D /* Pods-CarNumberTF */,
+				DE4951E079D69A23A4AA5F8078BB8297 /* Pods-CarNumberTFTests */,
+				115EC25D2CEC37E0937DA55879F4CBE0 /* Pods-CarNumberTFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438BB07340B2B8EAA4C3D3C1A09645E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CDD09B7C14209906F682786078588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFBB73029AED4615577FEF62D4207C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21852A2EA4E67702013634E7F3A5AECA /* rzDelete@2x.png in Resources */,
+				1D7875F3819C8516F962292680753EC6 /* rzDelete@3x.png in Resources */,
+				7B3BA1D034298E5EFFEE5B7B74A9233D /* rzKeyBoardFlag.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFDD1FFC5314FC69CB62D5E62FBE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA67E4FE4DBE117E76AD8CA39F6D0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4B03A7E998645F1EB3675D5BD5D523 /* Pods-CarNumberTF-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F41C1456B1C4286B1C1A4F6D499FDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41230E89612DF7A7B8C3DA3EE04A2E9E /* CarNumberTF-dummy.m in Sources */,
+				8BB5C2B8AC6B75E576F6FA9530972528 /* RZCarPlateNoKeyBoardCell.m in Sources */,
+				03566A88AE24E7CC01596FAE007AAFD2 /* RZCarPlateNoKeyBoardCellModel.m in Sources */,
+				B906CB4961C4B0AEB299AFFA9F014E75 /* RZCarPlateNoKeyBoardFlagView.m in Sources */,
+				9E0EC5793242CDE06A315720EDB65139 /* RZCarPlateNoKeyBoardView.m in Sources */,
+				F42036232FD384DF8B054CE013C0B997 /* RZCarPlateNoKeyBoardViewModel.m in Sources */,
+				2A4B1940EB99DD3286C11A6013571361 /* RZCarPlateNoTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60CF645FF57C3B6048544B7855C4C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AF1C3A1FA296C729F0FCAFC276EA49 /* Pods-CarNumberTFTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA632456A7389E418CBE5A79F06391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF833B6C50F28697CD1020C18C03659 /* Pods-CarNumberTFUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D4E7D928C079FD184F4AA8D2CAAA6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CarNumberTF";
+			target = ECD513CB1214F3D33889AFAE0016570D /* Pods-CarNumberTF */;
+			targetProxy = 050E764D5063D8D86B7920827C3340E0 /* PBXContainerItemProxy */;
+		};
+		461A491DC0592C339A62D39F5299C749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 8B9748BFCD38E385FFD54D94F15000A1 /* PBXContainerItemProxy */;
+		};
+		F003EDE2A0A2F1AAD248A049BCEB6D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarNumberTF;
+			target = 6FDA28861CD7993B5DB1E8D1E4E3FA18 /* CarNumberTF */;
+			targetProxy = 7A0DC67F3B5AAB47A2C181A8B29F0AE9 /* PBXContainerItemProxy */;
+		};
+		FD523F136ACC7FCA7760B2CC1143DEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CarNumberTF";
+			target = ECD513CB1214F3D33889AFAE0016570D /* Pods-CarNumberTF */;
+			targetProxy = 7E819283B5774F9D5A8266263006B07F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0006D39C878635608EEC0A3D0A686083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CD50C5D3CD9F4689D28B8C9A7215B4 /* CarNumberTF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarNumberTF/CarNumberTF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarNumberTF/CarNumberTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarNumberTF/CarNumberTF.modulemap";
+				PRODUCT_MODULE_NAME = CarNumberTF;
+				PRODUCT_NAME = CarNumberTF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0AC8A0CB41A01DBE35825786D117E997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CD50C5D3CD9F4689D28B8C9A7215B4 /* CarNumberTF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarNumberTF/CarNumberTF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarNumberTF/CarNumberTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarNumberTF/CarNumberTF.modulemap";
+				PRODUCT_MODULE_NAME = CarNumberTF;
+				PRODUCT_NAME = CarNumberTF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		184C87FF367CEB350AE3296486F1DAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA1606D2F8BAB45949711BE95A356A8 /* Pods-CarNumberTF.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTF/Pods-CarNumberTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTF/Pods-CarNumberTF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4393D7C92C260BF0F47E80403D5119FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54123451CCC00EFD0BF9D2D5B956B82A /* Pods-CarNumberTFTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTFTests/Pods-CarNumberTFTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTFTests/Pods-CarNumberTFTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		458B3C8CAFFDEA98C529267896824FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C578AF29AC7CB0F901FAF2D098DF08 /* Pods-CarNumberTFUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTFUITests/Pods-CarNumberTFUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTFUITests/Pods-CarNumberTFUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		473B2CDFD0E1B8B53D58C68F3F74512C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56086DE8B30B47DAF5763009BB35DD33 /* Pods-CarNumberTF.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTF/Pods-CarNumberTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTF/Pods-CarNumberTF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D7E230FDDE90EC7737353939959BE3 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B073834A854DB6060D2B832FA6A93A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D7E230FDDE90EC7737353939959BE3 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E86172427DD8778BCDCF17691AAADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E1E80E1211ED8554D4734BEE1334D9 /* Pods-CarNumberTFUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTFUITests/Pods-CarNumberTFUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTFUITests/Pods-CarNumberTFUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE1125B384E15BF96E9C78037083C952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029EF92A64E5EB644DAECA314DC82792 /* Pods-CarNumberTFTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarNumberTFTests/Pods-CarNumberTFTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarNumberTFTests/Pods-CarNumberTFTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB4E6623669EBDD5438436B1ABA0ED6 /* Build configuration list for PBXNativeTarget "Pods-CarNumberTFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4393D7C92C260BF0F47E80403D5119FE /* Debug */,
+				FE1125B384E15BF96E9C78037083C952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5467B7E0AB0EBAEA963B3C00D4732519 /* Build configuration list for PBXNativeTarget "Pods-CarNumberTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C87FF367CEB350AE3296486F1DAD2 /* Debug */,
+				473B2CDFD0E1B8B53D58C68F3F74512C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */,
+				B073834A854DB6060D2B832FA6A93A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91995C4381D4DFA76007040D814FA51F /* Build configuration list for PBXNativeTarget "CarNumberTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC8A0CB41A01DBE35825786D117E997 /* Debug */,
+				0006D39C878635608EEC0A3D0A686083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96EB4402817638777AD4EA31A8F7A6E /* Build configuration list for PBXNativeTarget "Pods-CarNumberTFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458B3C8CAFFDEA98C529267896824FAB /* Debug */,
+				E9E86172427DD8778BCDCF17691AAADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

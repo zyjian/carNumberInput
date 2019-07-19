@@ -1,0 +1,6 @@
+framework module CarNumberTF {
+  umbrella header "CarNumberTF-umbrella.h"
+
+  export *
+  module * { export * }
+}

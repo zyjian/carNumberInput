@@ -1,0 +1,20 @@
+PODS:
+  - CarNumberTF (1.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CarNumberTF
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CarNumberTF
+    - Masonry
+
+SPEC CHECKSUMS:
+  CarNumberTF: 113292d000590d286e77875bbb8df3dcda537031
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: b201bc22347dc1d2d933b55d10a090622de7ab7c
+
+COCOAPODS: 1.7.4
