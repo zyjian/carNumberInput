@@ -43,7 +43,8 @@
         _label.font = [UIFont systemFontOfSize:30];
         _label.textAlignment = NSTextAlignmentCenter; 
     }
-    self.imageView.image = [UIImage imageNamed:@"RZCarPlateNoResource.bundle/rzKeyBoardFlag"];
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+    self.imageView.image = [UIImage imageWithContentsOfFile:[[currentBundle resourcePath] stringByAppendingPathComponent:@"rzKeyBoardFlag.png"]];
     return _label;
 }
 

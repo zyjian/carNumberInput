@@ -49,13 +49,9 @@ NSString * const rz_plateNo_code_end_Regx = @"[A-Z0-9挂学警港澳]";
                 } else if ([obj isEqualToString:@"delete"]) {
                     model.rz_isDeleteBtnType = YES;
 
-
                     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-                    NSString *patch = [currentBundle pathForResource:@"rzDelete@2x.png" ofType:nil inDirectory:@"CarNumberTF.bundle"];
-
                     // 获取图片
-                    UIImage *imageFile = [UIImage imageWithContentsOfFile:patch];
-                    model.image = imageFile;
+                    model.image = [UIImage imageWithContentsOfFile:[[currentBundle resourcePath] stringByAppendingPathComponent:@"rzDelete@2x.png"]];
                 } else {
                     model.text = obj;
                 }
@@ -88,9 +84,8 @@ NSString * const rz_plateNo_code_end_Regx = @"[A-Z0-9挂学警港澳]";
                     model.rz_isDeleteBtnType = YES;
                     // 注意图片名称的格式，必须写全 @2x 或者 @3x  后缀名都得写
                     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-                    NSString *patch = [currentBundle pathForResource:@"rzDelete@2x.png" ofType:nil inDirectory:@"CarNumberTF.bundle"];
-                    UIImage *imageFile = [UIImage imageWithContentsOfFile:patch];
-                    model.image = imageFile;
+                    model.image = [UIImage imageWithContentsOfFile:[[currentBundle resourcePath] stringByAppendingPathComponent:@"rzDelete@2x.png"]];
+
                 } else {
                     model.text = obj;
                 }
